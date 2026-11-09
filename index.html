@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#160d25">
+  <meta name="description" content="A little festival of lights, made with love. Happy Deepawali!">
+  <title>Happy Deepawali | A Festival of Lights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="stars"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+    <div id="fireworks"></div>
+    <div id="petals"></div>
+  </div>
+
+  <main class="experience">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">✦</span> FESTIVAL OF LIGHTS</div>
+      <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false">
+        <span class="sound-icon">♫</span><span id="soundLabel">Sound off</span>
+      </button>
+    </header>
+
+    <section class="hero" id="hero">
+      <p class="eyebrow reveal">A little light, a lot of love</p>
+      <div class="diya-wrap reveal" aria-label="A glowing animated diya">
+        <div class="flame"><i></i></div>
+        <div class="flame-halo"></div>
+        <div class="diya">
+          <div class="diya-rim"></div>
+          <div class="diya-bowl"><span class="diya-pattern">✧　✦　✧</span></div>
+        </div>
+        <div class="diya-reflection"></div>
+      </div>
+      <p class="intro reveal">May this beautiful festival bring</p>
+      <h1 class="main-title reveal"><span>Happy</span><strong>Deepawali</strong></h1>
+      <p class="subtitle reveal">May your world glow with happiness, peace and endless possibilities.</p>
+      <button class="begin-button reveal" id="beginButton" type="button">
+        <span>✨</span> Begin the celebration <span class="arrow">→</span>
+      </button>
+      <div class="scroll-hint">SCROLL TO FEEL THE LIGHT <span>↓</span></div>
+    </section>
+
+    <section class="wish-section" id="wishes">
+      <div class="section-rule"><span>✦</span></div>
+      <p class="eyebrow">A wish from the heart</p>
+      <h2>Let the light within you <em>shine.</em></h2>
+      <p class="wish-copy">May every diya brighten a new hope, every sparkle bring a reason to smile, and every moment with your loved ones become a beautiful memory.</p>
+      <div class="wish-grid">
+        <article class="wish-card"><span>🪔</span><b>Happiness</b><small>May joy find its way to your home.</small></article>
+        <article class="wish-card"><span>🌼</span><b>Peace</b><small>May your days be calm and bright.</small></article>
+        <article class="wish-card"><span>✨</span><b>Prosperity</b><small>May new opportunities shine ahead.</small></article>
+      </div>
+    </section>
+
+    <section class="finale" id="finale">
+      <div class="finale-lights" aria-hidden="true">✦　✧　✦　✧　✦</div>
+      <p class="eyebrow">From my heart to yours</p>
+      <h2>A very <span>Happy</span><br>Deepawali!</h2>
+      <p class="final-message">Wishing you and your family a festival filled with love, laughter and light.</p>
+      <div class="signature">With love, <strong>Rohith</strong> <span>♥</span></div>
+      <button class="share-button" id="shareButton" type="button">Share this light <span>↗</span></button>
+      <p class="footer-note">Made with ✦ and a little festive magic</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
